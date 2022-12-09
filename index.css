@@ -1,1 +1,171 @@
 /* Your CSS goes here */
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;              
+              }
+              
+              section{
+                        margin: 2rem; 
+                        padding: 1.2rem;         
+              }
+              
+              nav{
+                    position: relative;          
+                        width: 100%;  
+                        height: 50px;        
+                       background-color: #577797;   
+              }
+              
+              .nav-container{
+                     display: flex; 
+                     align-items: center; 
+                     justify-content: space-between;
+                     text-align: center; 
+                        
+              }
+              
+              .logo{
+                     text-decoration: none; 
+                     padding: 15px 8rem; 
+                     text-align: center; 
+                     color: #fff;
+                     font-size: 1.2rem;
+                     font-weight: 400;
+                     
+              }
+              
+              .nav-container .main-nav{
+                         padding-right: 8rem;  
+                         text-align: center; 
+                             
+              }
+              
+              .nav-container .main-nav a{
+                       text-decoration: none; 
+                       color: #fff; 
+                       padding: 14px;  
+                       text-align: center;
+                       font-size: 1.2rem;  
+              
+              }
+              
+              
+              header{
+                          width: 100%;
+                                 
+              }
+              
+              .home{
+                     line-height: 55px; 
+                        display: flex;
+                        background-color: #ff7c2a;
+                                 
+              }
+              
+              
+              .home .homer{
+                       justify-content: center;  
+                       margin-left: 29rem;  
+                       color: #fff;
+                       text-align: center;
+                       margin-top: 5rem;
+              }
+              
+              .home .homer .title{
+                         margin-top: 6rem;   
+                         font-size: 3.2rem;  
+                         font-weight: 600;    
+                         text-align: center;
+              }
+              
+              .home .homer .bar{
+                                  padding-bottom: 15rem;   
+                                  font-size: 1.7rem;  ;    
+                                  text-align: center;           
+              }
+              
+              .content-container{
+                      display: inline-block;
+                      margin: 0 3rem;
+                      text-align: center;
+                      padding: 0 14rem;
+              }
+              
+              .content-container .post-container{
+                          background-color: #e8e6e6;
+                          padding: 3rem;
+                          text-align: center;
+              
+              }
+              
+              .content-container .post-container .post-title{
+                                 padding-bottom: 1.1rem; 
+                                 font-size: 1.3rem;
+              }
+              
+              .content-container .post-container .post{
+                           font-size: 1rem;   
+                           text-align: center;
+              
+              }
+              
+              .pata-container{
+                            display: inline-block;    
+                            margin: 0 3rem;  
+                            text-align: center;
+                            padding: 0 3rem;
+              
+              }
+              
+              .pata-container .tex-container{
+                                  display: grid;
+                                  grid-template-columns: repeat(auto-fit, minmax(280px, auto));  
+                                  justify-content: center;   
+                                  gap: 1.5rem;  
+                                  width: 100%;
+                                  height: 130px;
+                                 
+                   
+              }
+              
+              .pata-container .tex-container .pata-text{
+                                  padding: 0 6rem;
+                                  text-align: center;
+                                  font-size: 1rem;
+                                  
+              }
+              
+              
+               .tex-container .pata-text .pata-title{
+                                  padding-bottom: 1.1rem;
+                                  font-weight: 500;
+                                  font-size: 1.2rem;
+                                  text-align: center;
+                                  text-transform: uppercase;
+              }
+              
+              
+              .tex-container .pata-text .pata-par{
+                                  padding-bottom: 2rem;
+                                  font-size: 0.9rem;
+                                  line-height: 1.2rem;
+                                  
+              }
+              
+              
+              .footer{
+                       display: flex;    
+                       width: 100%;
+                       height: 55px;    
+                       background-color: #ff7c2a; 
+                       text-align: center;  
+              }
+              
+              .footer .loy{
+                      padding-left: 40%; 
+                      padding-top: 1.1rem;  
+                      font-size: 1.3rem;       
+                             
+              }
+              
